@@ -1,0 +1,1 @@
+# RedmiBook-Pro14-2022-Ryzen-Hackintosh
