@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-11",
+  "controller": "Apple Silicon build host",
+  "efi_content_files": 73,
+  "kernel_add_entries": 24,
+  "active_kernel_patches": 16,
+  "acpi_byte_identity": {
+    "SSDT-CPUR.aml": true,
+    "SSDT-TPD0.aml": true,
+    "SSDT-PNLF.aml": true,
+    "SSDT-EC-USBX.aml": true
+  },
+  "ocvalidate": "passed",
+  "x86_64_dependency_order": "passed",
+  "generated_vbios_matches_original": true,
+  "public_template_matches_documented_changes": true,
+  "gpu_candidate23_binary_identity": true,
+  "wifi_core_front_binary_identity": true,
+  "bluetooth_generated_page_identity": true,
+  "runtime": "Not installed or booted during publication preparation"
+}

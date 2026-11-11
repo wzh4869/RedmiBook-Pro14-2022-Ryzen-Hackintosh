@@ -1,0 +1,14 @@
+build/
+private/
+.DS_Store
+__pycache__/
+*.pyc
+bluetooth/Dependencies/
+bluetooth/generated/
+bluetooth/build/
+wifi/build/
+*.kext/
+*.rom
+*.bin
+*.aml
+*.efi
