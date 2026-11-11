@@ -1,0 +1,25 @@
+{
+  "upstream": {
+    "repository": "https://github.com/tanner02/RealtekBluetoothCompat",
+    "commit": "ef5294418e3c4c228b72c7309ba13448e382fcec",
+    "license": "GPL-2.0-only"
+  },
+  "MacKernelSDK": {
+    "repository": "https://github.com/acidanthera/MacKernelSDK.git",
+    "commit": "3f750085caa17ec3a7880f11c11bf4f48cd6a164"
+  },
+  "Lilu": {
+    "repository": "https://github.com/acidanthera/Lilu.git",
+    "commit": "e4748cc081bf060302c7d3c44a643ce1d11b7e1d",
+    "license": "BSD-3-Clause"
+  },
+  "validated_ready_source_sha256": {
+    "RealtekBluetoothCompat.cpp": "a1f03e2202c73e62c5b5127c962b2eac77a1c2d218db4b07f24bb0327c4de75f",
+    "PatchEngine.hpp": "81b26a0e297016f86cfe01e9501eee222be76b6eb0e0b48868a0ea58d53c2942",
+    "kmod_info.c": "d42923cfa49af7de8185e224210cd53ea6447fc80a3855e1739790596b139d46",
+    "Info.plist": "e9f64f85ca4fe0bae3cb92032aef03f4c606f0dbea0c4edb50fec2c3cd9dfe14",
+    "LICENSE": "a45d0bb572ed792ed34627a72621834b3ba92aab6e2cc4e04301dee7a728d753",
+    "tests/phy.cpp": "6e6c4320fdf172cfad9e7c200a7de57a8c52669d2199d185524be5827faba89f"
+  },
+  "validated_generated_header_sha256": "b32c3edf24442af8d9ac613f0d93dcaadb1d52bfdddefb2967e3a10b729ef275"
+}

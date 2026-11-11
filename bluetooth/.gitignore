@@ -1,0 +1,9 @@
+# Local Apple-derived pages and binaries are never published.
+/generated/
+/build/
+/Dependencies/
+*.kext/
+*.o
+*.log
+__pycache__/
+.DS_Store
