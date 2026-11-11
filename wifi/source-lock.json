@@ -1,0 +1,61 @@
+{
+  "upstream_repository": "https://github.com/FranciumOS-org/AirPort_RTW89",
+  "pull_request": "https://github.com/FranciumOS-org/AirPort_RTW89/pull/11",
+  "source_repository": "https://github.com/hrx114514x/AirPort_RTW89",
+  "commit": "54ecd01ee1e3e5c0b378611a989b8d8c11e58579",
+  "archive_url": "https://codeload.github.com/hrx114514x/AirPort_RTW89/tar.gz/54ecd01ee1e3e5c0b378611a989b8d8c11e58579",
+  "archive_sha256": "465d85a834743a027f9990d46c2059ab0ba0e5e95938967ef90c0564557e539f",
+  "patch": "patches/0001-native-build.patch",
+  "patch_sha256": "37974fbc72cad8ca7d86b9b402b402e93e7905a7b313279c7852680e6c05a799",
+  "vendored_dependencies": {
+    "linux_rtw89_and_headers": {
+      "repository": "https://github.com/torvalds/linux",
+      "commit": "551c722f40809618230001baccf219193e22fc5a",
+      "license": "Per-file GPL-2.0 or BSD-3-Clause; see source SPDX headers"
+    },
+    "MacKernelSDK": {
+      "repository": "https://github.com/acidanthera/MacKernelSDK",
+      "version": "Snapshot included in the SHA-256-pinned AirPort_RTW89 archive",
+      "license_file": "licenses/MacKernelSDK-LICENSE.txt"
+    },
+    "hostap": {
+      "repository": "https://w1.fi/hostap.git",
+      "commit": "5b156e272a0266ca6be0f394192bad42b0ff176c",
+      "license_file": "licenses/hostap-COPYING"
+    },
+    "mbedtls": {
+      "repository": "https://github.com/Mbed-TLS/mbedtls",
+      "commit_prefix": "1ee94c5a1147",
+      "license_file": "licenses/mbedtls-LICENSE"
+    }
+  },
+  "firmware": {
+    "repository": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git",
+    "commit": "d947e4e8e314e9254a1242dc1a5d9cede2cce33d",
+    "hashes": "firmware/SHA256SUMS in the pinned source archive",
+    "retrieval": "make fetch-firmware; firmware is not committed here"
+  },
+  "upstream_license_file": "licenses/AirPort_RTW89-GPL-2.0.txt",
+  "local_compatibility_inputs": {
+    "oclp_commit": "d9604c36a432eaf243ea18659ff4d208187452d7",
+    "archives": [
+      {
+        "name": "IOSkywalkFamily-v1.2.0.zip",
+        "url": "https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/d9604c36a432eaf243ea18659ff4d208187452d7/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip",
+        "sha256": "1e12b7ef42f55b39ea54ada97b46331220668b2c48a28656e9875c5145fe2479"
+      },
+      {
+        "name": "IO80211FamilyLegacy-v1.0.0.zip",
+        "url": "https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/d9604c36a432eaf243ea18659ff4d208187452d7/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip",
+        "sha256": "e681dcc76a2cd2cea4b0ad5f27a3c816055fde3cdccd890dd10a3e2c84e96d93"
+      },
+      {
+        "name": "AMFIPass-v1.4.1-RELEASE.zip",
+        "url": "https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/d9604c36a432eaf243ea18659ff4d208187452d7/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip",
+        "sha256": "07b266145906db41f4b13a7938fbb173ea28888cc1fa65f84417f8820adc961e"
+      }
+    ],
+    "retrieval": "Provided by the user; these archives are not committed or downloaded by build.py",
+    "reference_kdk": "15.8.1 / 24H32; used for the existing offline build checks, not proof of Tahoe ABI compatibility"
+  }
+}
